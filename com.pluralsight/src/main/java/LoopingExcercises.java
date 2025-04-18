@@ -4,7 +4,7 @@ public class LoopingExcercises {
 
         while (count < 5) { //evaluate the counter
             System.out.println("I love java");
-            count = count + 1; //incrementing of the counter
+             count = count + 1; //incrementing of the counter
         }
     }
 }
