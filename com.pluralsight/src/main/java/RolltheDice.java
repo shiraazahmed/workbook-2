@@ -35,7 +35,7 @@ public class RolltheDice {
             }
         }
         // we display final results
-        System.out.println("\n--- Final Count Results ---");
+        System.out.println("\n Final Count Results Loading...");
         System.out.println("Number 2 appeared: " + twoCounter + " times");
         System.out.println("Number 4 appeared: " + fourCounter + " times");
         System.out.println("Number 6 appeared: " + sixCounter + " times");
