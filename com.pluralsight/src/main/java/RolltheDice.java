@@ -15,14 +15,15 @@ public class RolltheDice {
         int sixCounter = 0;
         int sevenCounter = 0;
 
-        // loop 100
+        //  loop 100
         for (int i = 1; i <= 100; i++) {
             roll1 = dice.roll();
             roll2 = dice.roll();
             int sum = roll1 + roll2;
 
+
             // final results for roll
-            System.out.println("Roll " + i + ": " + roll1 + " - " + roll2 + " Sum: " + sum);
+            System.out.println("Roll " + i + ": " + roll1 + " + " + roll2 + " Sum: " + sum);
             // sum check
             if (sum == 2) {
                 twoCounter++;
@@ -40,6 +41,7 @@ public class RolltheDice {
         System.out.println("Number 4 appeared: " + fourCounter + " times");
         System.out.println("Number 6 appeared: " + sixCounter + " times");
         System.out.println("Number 7 appeared: " + sevenCounter + " times");
+        System.out.println("There you go!");
     }
 }
 
